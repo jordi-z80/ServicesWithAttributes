@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<Version>1.0.0</Version>
+		<Authors>jordi-z80</Authors>
+		<Company>jordi-z80</Company>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageTags>aspnetcore initialization attribute</PackageTags>
+		<RepositoryUrl>Your Repository URL</RepositoryUrl>
+		<PackageProjectUrl>Your Project URL</PackageProjectUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<Description>Minimal library to be able to use [Service] instead of creating them in the Program.cs</Description>
+	</PropertyGroup>
+
+	
+	<ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
